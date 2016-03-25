@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="author" content="John Callahan">
+<meta name="generator" content="WYSIWYG Web Builder 10 - http://www.wysiwygwebbuilder.com">
+<link href="TLwebsite.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+</head>
+<body>
+<div id="container">
+<div id="wb_Image1" style="position:absolute;left:21px;top:30px;width:160px;height:160px;z-index:0;">
+<img src="images/TLlogo.jpg" id="Image1" alt=""></div>
+<div id="wb_Text1" style="position:absolute;left:423px;top:51px;width:779px;height:83px;z-index:1;text-align:left;">
+<span style="color:#000000;font-family:Arial;font-size:75px;">TL-Ultralight Australia</span></div>
+<div id="wb_Image2" style="position:absolute;left:490px;top:160px;width:804px;height:452px;z-index:2;">
+<img src="images/TLthree.jpg" id="Image2" alt=""></div>
+<div id="wb_Text2" style="position:absolute;left:0px;top:203px;width:360px;height:361px;z-index:3;text-align:left;">
+<span style="color:#000000;font-family:Arial;font-size:17px;">TL-Ultralight in Czech Republic has<br> 25 years of experience in the aviation industry<br> More than 1000 aircraft manufactured and&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <br> delivered to date<br> Product customization based on client´s&nbsp; <br> specifications- custom-made graphics,<br> customized cockpit<br> Excellent design and outstanding flying <br>qualities of our aircraft<br> State of the art CNC and CAD technologies <br> implemented into the production processes<br> TL-ULTRALIGHT aircraft flying on every <br> continent except Antarctica<br> Reputable dealers worldwide<br> Functional service plan on all machines<br> Well-coordinated team of professionals and <br> experts<br> Dynamic company with vision and passion for <br> the future</span></div>
+<div id="wb_Image4" style="position:absolute;left:479px;top:646px;width:355px;height:209px;z-index:4;">
+<img src="images/index-tl-3000-sirius.jpg" id="Image4" alt=""></div>
+<div id="wb_Image5" style="position:absolute;left:934px;top:647px;width:383px;height:208px;z-index:5;">
+<img src="images/stream_web_body.jpg" id="Image5" alt=""></div>
+<div id="wb_Text3" style="position:absolute;left:97px;top:876px;width:355px;height:32px;z-index:6;text-align:left;">
+<span style="color:#6A5ACD;font-family:Arial;font-size:27px;"><a href="./page1.html">TL Sting details</a></span></div>
+<div id="wb_Text5" style="position:absolute;left:992px;top:876px;width:287px;height:32px;z-index:7;text-align:left;">
+<span style="color:#6A5ACD;font-family:Arial;font-size:27px;"><a href="./page3.html">TL Stream details</a></span></div>
+<div id="wb_Text6" style="position:absolute;left:358px;top:21px;width:103px;height:18px;z-index:8;text-align:left;">
+<span style="color:#000000;font-family:Arial;font-size:16px;"><a href="./page1.html">TL Sting S4</a></span></div>
+<div id="wb_Text7" style="position:absolute;left:992px;top:21px;width:127px;height:18px;z-index:9;text-align:left;">
+<span style="color:#000000;font-family:Arial;font-size:16px;"><a href="./page5.html">Contact</a></span></div>
+<div id="wb_Text8" style="position:absolute;left:842px;top:22px;width:92px;height:17px;z-index:10;text-align:left;">
+<span style="color:#000000;font-family:Arial;font-size:15px;"><a href="./page4.html">Propellor</a></span></div>
+<div id="wb_Text4" style="position:absolute;left:534px;top:876px;width:240px;height:32px;z-index:11;text-align:left;">
+<span style="color:#6A5ACD;font-family:Arial;font-size:27px;"><a href="./page2.html">TL Sirius details</a></span></div>
+<div id="wb_Text9" style="position:absolute;left:515px;top:21px;width:135px;height:18px;z-index:12;text-align:left;">
+<span style="color:#000000;font-family:Arial;font-size:16px;"><a href="./page2.html">TL Sirius</a></span></div>
+<div id="wb_Text10" style="position:absolute;left:673px;top:21px;width:88px;height:18px;z-index:13;text-align:left;">
+<span style="color:#000000;font-family:Arial;font-size:16px;"><a href="./page3.html">TL Stream</a></span></div>
+<div id="wb_Extension1" style="position:absolute;left:502px;top:1052px;width:228px;height:28px;z-index:14;">
+<?php
+   $file = fopen('counter.txt', 'r');
+   $data = fread($file, filesize('counter.txt'));
+   fclose($file);
+   if ($data !== false)
+   {
+      $hits = intval($data);
+      $hits++;
+      $file = fopen('counter.txt', 'w');
+      flock($file, LOCK_EX);
+      fwrite($file, $hits);
+      flock($file, LOCK_UN);
+      fclose($file);
+   }
+?>
+</div>
+<div id="wb_Image3" style="position:absolute;left:21px;top:646px;width:389px;height:209px;z-index:15;">
+<img src="images/OKPUA%2069.jpg" id="Image3" alt="" title="Australia"></div>
+</div>
+</body>
+</html>
