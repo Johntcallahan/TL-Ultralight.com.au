@@ -1,6 +1,6 @@
 div#container
 {
-   width: 970px;
+   width: 1250px;
    position: relative;
    margin: 0 auto 0 auto;
    text-align: left;
@@ -96,42 +96,6 @@ body
 {
    text-align: left;
 }
-#wb_Text6 
-{
-   background-color: transparent;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text6 div
-{
-   text-align: left;
-}
-#wb_Text7 
-{
-   background-color: transparent;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text7 div
-{
-   text-align: left;
-}
-#wb_Text8 
-{
-   background-color: transparent;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text8 div
-{
-   text-align: left;
-}
 #wb_Text4 
 {
    background-color: transparent;
@@ -144,30 +108,6 @@ body
 {
    text-align: left;
 }
-#wb_Text9 
-{
-   background-color: transparent;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text9 div
-{
-   text-align: left;
-}
-#wb_Text10 
-{
-   background-color: transparent;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text10 div
-{
-   text-align: left;
-}
 #Image3
 {
    border: 0px #000000 solid;
@@ -175,4 +115,16 @@ body
    top: 0;
    width: 100%;
    height: 100%;
+}
+#wb_TextMenu1
+{
+   background-color: transparent;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+}
+#wb_TextMenu1 span
+{
+   margin: 0 10px 0 0px;
 }
