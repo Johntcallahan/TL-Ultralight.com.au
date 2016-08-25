@@ -2,62 +2,88 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>TL-Ultralight.com.au</title>
-<meta name="generator" content="WYSIWYG Web Builder 10 - http://www.wysiwygwebbuilder.com">
-<link href="TLwebsite.css" rel="stylesheet">
+<title>TL-Ultralight</title>
+<meta name="description" content="TL Ultralight">
+<meta name="keywords" content="TL-Ultralight, TL Sting, TL Sirius, TL Stream, Powermax, Ultralight, RAA, Ultralight aircraft, LSA, sport aircraft, tl ultralight, inflight adjustable">
+<meta name="author" content="John">
+<meta name="revisit-after" content="7 days">
+<meta name="generator" content="WYSIWYG Web Builder 11 - http://www.wysiwygwebbuilder.com">
+<link href="TLweb_04.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
+<script src="jquery-1.11.3.min.js"></script>
+<script src="wb.carousel.min.js"></script>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-75605541-1', 'auto');
-  ga('send', 'pageview');
-
+$(document).ready(function()
+{
+   var Carousel1Opts =
+   {
+      delay: 4000,
+      duration: 800,
+      easing: 'linear',
+      mode: 'forward',
+      direction: '',
+      pagination: true,
+      pagination_img_default: 'images/page_default.png',
+      pagination_img_active: 'images/page_active.png',
+      start: 0
+   };
+   $("#Carousel1").carousel(Carousel1Opts);
+   $("#Carousel1_back a").click(function()
+   {
+      $('#Carousel1').carousel('prev');
+   });
+   $("#Carousel1_next a").click(function()
+   {
+      $('#Carousel1').carousel('next');
+   });
+});
 </script>
+<!-- Insert Google Analytics code here -->
 </head>
 <body>
 <div id="container">
-<div id="wb_Image1" style="position:absolute;left:21px;top:30px;width:160px;height:160px;z-index:0;">
-<img src="images/TLlogo.jpg" id="Image1" alt=""></div>
-<div id="wb_Text1" style="position:absolute;left:423px;top:51px;width:779px;height:83px;z-index:1;text-align:left;">
-<span style="color:#000000;font-family:Arial;font-size:75px;">TL-Ultralight Australia</span></div>
-<div id="wb_Image2" style="position:absolute;left:400px;top:134px;width:804px;height:452px;z-index:2;">
-<img src="images/TLthree.jpg" id="Image2" alt=""></div>
-<div id="wb_Text2" style="position:absolute;left:0px;top:203px;width:360px;height:361px;z-index:3;text-align:left;">
-<span style="color:#000000;font-family:Arial;font-size:17px;">TL-Ultralight in Czech Republic has<br> 25 years of experience in the aviation industry<br> More than 1000 aircraft manufactured and&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <br> delivered to date<br> Product customization based on client´s&nbsp; <br> specifications- custom-made graphics,<br> customized cockpit<br> Excellent design and outstanding flying <br>qualities of our aircraft<br> State of the art CNC and CAD technologies <br> implemented into the production processes<br> TL-ULTRALIGHT aircraft flying on every <br> continent except Antarctica<br> Reputable dealers worldwide<br> Functional service plan on all machines<br> Well-coordinated team of professionals and <br> experts<br> Dynamic company with vision and passion for <br> the future</span></div>
-<div id="wb_Image4" style="position:absolute;left:479px;top:646px;width:355px;height:209px;z-index:4;">
-<img src="images/index-tl-3000-sirius.jpg" id="Image4" alt=""></div>
-<div id="wb_Image5" style="position:absolute;left:934px;top:647px;width:383px;height:208px;z-index:5;">
-<img src="images/stream_web_body.jpg" id="Image5" alt=""></div>
-<div id="wb_Text3" style="position:absolute;left:97px;top:876px;width:355px;height:32px;z-index:6;text-align:left;">
-<span style="color:#6A5ACD;font-family:Arial;font-size:27px;"><a href="./tl-sting-s4.html">TL Sting details</a></span></div>
-<div id="wb_Text5" style="position:absolute;left:992px;top:876px;width:287px;height:32px;z-index:7;text-align:left;">
-<span style="color:#6A5ACD;font-family:Arial;font-size:27px;"><a href="./tl-stream.html">TL Stream details</a></span></div>
-<div id="wb_Text4" style="position:absolute;left:534px;top:876px;width:240px;height:32px;z-index:8;text-align:left;">
-<span style="color:#6A5ACD;font-family:Arial;font-size:27px;"><a href="./tl-sirius.html">TL Sirius details</a></span></div>
-<div id="wb_Extension1" style="position:absolute;left:502px;top:1052px;width:228px;height:28px;z-index:9;">
-<?php
-   $file = fopen('counter.txt', 'r');
-   $data = fread($file, filesize('counter.txt'));
-   fclose($file);
-   if ($data !== false)
-   {
-      $hits = intval($data);
-      $hits++;
-      $file = fopen('counter.txt', 'w');
-      flock($file, LOCK_EX);
-      fwrite($file, $hits);
-      flock($file, LOCK_UN);
-      fclose($file);
-   }
-?>
+<div id="wb_Text1" style="position:absolute;left:235px;top:105px;width:735px;height:60px;z-index:4;text-align:left;">
+<span style="color:#000000;font-family:Arial;font-size:53px;">TL- Ultralight Australia Pty. Ltd.</span></div>
+<div id="wb_Text2" style="position:absolute;left:150px;top:42px;width:102px;height:18px;z-index:5;text-align:left;">
+<span style="color:#0000CD;font-family:Arial;font-size:16px;"><a href="./Sting.html">TL Sting S4</a></span></div>
+<div id="wb_Text3" style="position:absolute;left:297px;top:42px;width:66px;height:18px;z-index:6;text-align:left;">
+<span style="color:#0000CD;font-family:Arial;font-size:16px;"><a href="./Sirius.html">TL Sirius</a></span></div>
+<div id="wb_Text4" style="position:absolute;left:421px;top:42px;width:104px;height:18px;z-index:7;text-align:left;">
+<span style="color:#0000CD;font-family:Arial;font-size:16px;"><a href="./Stream.html">TL Stream</a></span></div>
+<div id="wb_Text5" style="position:absolute;left:547px;top:42px;width:143px;height:36px;z-index:8;text-align:left;">
+<span style="color:#0000CD;font-family:Arial;font-size:16px;"><a href="./Propellor.html">Powermax Propellor</a></span></div>
+<div id="wb_Text6" style="position:absolute;left:847px;top:42px;width:93px;height:18px;z-index:9;text-align:left;">
+<span style="color:#0000CD;font-family:Arial;font-size:16px;"><a href="./Contacts.html">Contact</a></span></div>
+<div id="wb_Text7" style="position:absolute;left:80px;top:735px;width:890px;height:216px;z-index:10;text-align:left;">
+<span style="color:#000000;font-family:Arial;font-size:16px;">TL-Ultralight is one of the largest and most eminent manufacturers of Light Sport Aircraft in the world. As a trendsetter in LSA materials and design, their aircraft have set performance and market class records. Established in 1989, the company enjoys an excellent safety record due to its experience and uncompromising quality.<br>Producing about five aircraft each month the total production is just on 1500 aircraft delivered.<br><br>Are you considering the purchase of a premier Light Sport Aircraft? If so, you need to look into one of the TL Ultralight composite aircraft. They are the most efficient and stylish aircraft for personal and commercial use available on the market today. All of the aircraft we sell are unique to design, appearance and safety, whether you choose the Sirius high wing, Sting low wing or the fighter like designed Stream. If you want your aircraft to stand out wherever you go and have pilots talk about the quality and performance of your aircraft, then take a moment and look at the TL Ultralight series of aeroplanes. With more than 25 years of manufacturing experience of one of the safest, sleek and high quality aircraft available today, you will be impressed with these beautifully designed planes..</span></div>
+<div id="wb_Text8" style="position:absolute;left:345px;top:1010px;width:280px;height:16px;text-align:center;z-index:11;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Copyright 2016</span></div>
+<div id="wb_Carousel1" style="position:absolute;left:106px;top:210px;width:794px;height:480px;z-index:12;overflow:hidden;">
+<div id="Carousel1" style="position:absolute">
+<div class="frame">
+<div id="wb_Image2" style="position:absolute;left:54px;top:40px;width:697px;height:400px;z-index:0;">
+<img src="images/StingS4.jpg" id="Image2" alt=""></div>
 </div>
-<div id="wb_Image3" style="position:absolute;left:21px;top:646px;width:389px;height:209px;z-index:10;">
-<img src="images/OKPUA%2069.jpg" id="Image3" alt="" title="Australia"></div>
-<div id="wb_TextMenu1" style="position:absolute;left:224px;top:23px;width:802px;height:17px;text-align:center;z-index:11;">
-<span><a href="./index.html" title="Home">Home</a></span><span><a href="./tl-sting-s4.html" title="TL Sting S4">TL Sting S4</a></span><span><a href="./tl-sirius.html" title="TL Sirius">TL Sirius</a></span><span><a href="./tl-stream.html" title="TL Stream">TL Stream</a></span><span><a href="./powerman-propellor.html" title="Powermax Propellor">Powermax Propellor</a></span><span><a href="./contact.html" title="Contact">Contact</a></span></div>
+<div class="frame">
+<div id="wb_Image3" style="position:absolute;left:848px;top:40px;width:687px;height:400px;z-index:1;">
+<img src="images/Sirius1.JPG" id="Image3" alt=""></div>
+</div>
+<div class="frame">
+<div id="wb_Image4" style="position:absolute;left:1622px;top:30px;width:720px;height:410px;z-index:2;">
+<img src="images/Stream1.jpg" id="Image4" alt=""></div>
+</div>
+<div class="frame">
+<div id="wb_Image5" style="position:absolute;left:2428px;top:50px;width:703px;height:380px;z-index:3;">
+<img src="images/Propellor.jpg" id="Image5" alt=""></div>
+</div>
+</div>
+<div id="Carousel1_back" style="position:absolute;left:4px;top:46%;width:30px;height:30px;z-index:999"><a style="cursor:pointer"><img alt="Back" style="border-width:0" src="images/carousel_back.png"></a></div>
+<div id="Carousel1_next" style="position:absolute;right:8px;top:46%;width:30px;height:30px;z-index:999"><a style="cursor:pointer"><img alt="Next" style="border-width:0" src="images/carousel_next.png"></a></div>
+</div>
+<div id="wb_Text9" style="position:absolute;left:740px;top:42px;width:57px;height:18px;z-index:13;text-align:left;">
+<span style="color:#0000CD;font-family:Arial;font-size:16px;"><a href="./Gallery.html">Gallery</a></span></div>
+<div id="wb_Image1" style="position:absolute;left:80px;top:105px;width:145px;height:145px;z-index:14;">
+<img src="images/TLlogo.jpg" id="Image1" alt=""></div>
 </div>
 </body>
 </html>
