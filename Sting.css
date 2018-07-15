@@ -20,7 +20,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: center;
@@ -31,8 +31,9 @@ body
 }
 #Image1
 {
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
    left: 0;
    top: 0;
    width: 100%;
@@ -42,7 +43,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -55,7 +56,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -68,7 +69,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -81,7 +82,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -94,7 +95,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -111,6 +112,7 @@ body
    font-family: Arial;
    font-weight: normal;
    font-size: 16px;
+   margin: 0;
 }
 #wb_TextMenu1 span
 {
@@ -118,8 +120,9 @@ body
 }
 #Image2
 {
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
    left: 0;
    top: 0;
    width: 100%;
@@ -127,8 +130,9 @@ body
 }
 #Image3
 {
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
    left: 0;
    top: 0;
    width: 100%;
@@ -136,8 +140,9 @@ body
 }
 #Image4
 {
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
    left: 0;
    top: 0;
    width: 100%;
@@ -145,10 +150,626 @@ body
 }
 #Image5
 {
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
    left: 0;
    top: 0;
    width: 100%;
    height: 100%;
+}
+#Image6
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text7 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text7 div
+{
+   text-align: left;
+}
+#wb_Text8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text8 div
+{
+   text-align: left;
+}
+#wb_Text1
+{
+   position: absolute;
+   left: 341px;
+   top: 70px;
+   width: 288px;
+   height: 60px;
+   text-align: center;
+   z-index: 0;
+}
+#wb_Text2
+{
+   position: absolute;
+   left: 120px;
+   top: 740px;
+   width: 753px;
+   height: 144px;
+   z-index: 2;
+}
+#wb_Text3
+{
+   position: absolute;
+   left: 110px;
+   top: 1400px;
+   width: 762px;
+   height: 286px;
+   z-index: 3;
+}
+#wb_Image1
+{
+   position: absolute;
+   left: 80px;
+   top: 70px;
+   width: 160px;
+   height: 160px;
+   z-index: 1;
+}
+#wb_Image2
+{
+   position: absolute;
+   left: 140px;
+   top: 240px;
+   width: 713px;
+   height: 440px;
+   z-index: 8;
+}
+#wb_Text4
+{
+   position: absolute;
+   left: 140px;
+   top: 2460px;
+   width: 712px;
+   height: 108px;
+   z-index: 4;
+}
+#wb_Image3
+{
+   position: absolute;
+   left: 150px;
+   top: 940px;
+   width: 702px;
+   height: 420px;
+   z-index: 9;
+}
+#wb_Text5
+{
+   position: absolute;
+   left: 115px;
+   top: 2630px;
+   width: 741px;
+   height: 376px;
+   z-index: 5;
+}
+#wb_Image4
+{
+   position: absolute;
+   left: 140px;
+   top: 2010px;
+   width: 700px;
+   height: 394px;
+   z-index: 10;
+}
+#wb_Text6
+{
+   position: absolute;
+   left: 629px;
+   top: 3000px;
+   width: 157px;
+   height: 90px;
+   z-index: 6;
+}
+#wb_Text7
+{
+   position: absolute;
+   left: 110px;
+   top: 1686px;
+   width: 728px;
+   height: 288px;
+   z-index: 13;
+}
+#wb_Image5
+{
+   position: absolute;
+   left: 443px;
+   top: 2630px;
+   width: 430px;
+   height: 300px;
+   z-index: 11;
+}
+#wb_Text8
+{
+   position: absolute;
+   left: 115px;
+   top: 2991px;
+   width: 462px;
+   height: 360px;
+   z-index: 14;
+}
+#wb_Image6
+{
+   position: absolute;
+   left: 639px;
+   top: 3199px;
+   width: 136px;
+   height: 48px;
+   z-index: 12;
+}
+#wb_TextMenu1
+{
+   position: absolute;
+   left: 617px;
+   top: 3267px;
+   width: 169px;
+   height: 38px;
+   text-align: center;
+   z-index: 7;
+}
+@media only screen and (min-width: 320px) and (max-width: 969px)
+{
+div#container
+{
+   width: 320px;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_Text1
+{
+   left: 341px;
+   top: 70px;
+   width: 288px;
+   height: 60px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image1
+{
+   left: 80px;
+   top: 70px;
+   width: 160px;
+   height: 160px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text2
+{
+   left: 120px;
+   top: 740px;
+   width: 753px;
+   height: 144px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text3
+{
+   left: 110px;
+   top: 1400px;
+   width: 762px;
+   height: 520px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text3
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text4
+{
+   left: 140px;
+   top: 2460px;
+   width: 712px;
+   height: 108px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text4
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text5
+{
+   left: 115px;
+   top: 2630px;
+   width: 741px;
+   height: 718px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text5
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text6
+{
+   left: 629px;
+   top: 3000px;
+   width: 157px;
+   height: 90px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text6
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_TextMenu1
+{
+   left: 481px;
+   top: 3132px;
+   width: 169px;
+   height: 38px;
+   visibility: visible;
+   display: inline;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: underline;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+}
+#wb_Image2
+{
+   left: 140px;
+   top: 240px;
+   width: 713px;
+   height: 440px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image3
+{
+   left: 150px;
+   top: 940px;
+   width: 702px;
+   height: 420px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image4
+{
+   left: 140px;
+   top: 2010px;
+   width: 700px;
+   height: 394px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image5
+{
+   left: 443px;
+   top: 2630px;
+   width: 430px;
+   height: 300px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image6
+{
+   left: 639px;
+   top: 3199px;
+   width: 136px;
+   height: 48px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+}
+@media only screen and (max-width: 319px)
+{
+div#container
+{
+   width: 320px;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_Text1
+{
+   left: 341px;
+   top: 70px;
+   width: 288px;
+   height: 60px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image1
+{
+   left: 80px;
+   top: 70px;
+   width: 160px;
+   height: 160px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text2
+{
+   left: 120px;
+   top: 740px;
+   width: 753px;
+   height: 144px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text3
+{
+   left: 110px;
+   top: 1400px;
+   width: 762px;
+   height: 520px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text3
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text4
+{
+   left: 140px;
+   top: 2460px;
+   width: 712px;
+   height: 108px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text4
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text5
+{
+   left: 115px;
+   top: 2630px;
+   width: 741px;
+   height: 718px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text5
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text6
+{
+   left: 629px;
+   top: 3000px;
+   width: 157px;
+   height: 90px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text6
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_TextMenu1
+{
+   left: 481px;
+   top: 3132px;
+   width: 169px;
+   height: 38px;
+   visibility: visible;
+   display: inline;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: underline;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+}
+#wb_Image2
+{
+   left: 140px;
+   top: 240px;
+   width: 713px;
+   height: 440px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image3
+{
+   left: 150px;
+   top: 940px;
+   width: 702px;
+   height: 420px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image4
+{
+   left: 140px;
+   top: 2010px;
+   width: 700px;
+   height: 394px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image5
+{
+   left: 443px;
+   top: 2630px;
+   width: 430px;
+   height: 300px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image6
+{
+   left: 639px;
+   top: 3199px;
+   width: 136px;
+   height: 48px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
 }
