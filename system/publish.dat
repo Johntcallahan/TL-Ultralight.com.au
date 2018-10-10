@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <publish_profiles>
-	<profile passive="true" port="21" username="" host="" url="http://tl-ultralight.com.au" clearcontrolchannel="false" type="local" password="" name="My Computer" loglevel="1" folder="C:\Github" >	</profile>
+	<profile passive="true" port="21" username="" host="" url="http://tl-ultralight.com.au" clearcontrolchannel="false" type="local" password="" name="My Computer" loglevel="1" folder="C:\Users\John\Documents\TL-Ultralight.com.au" >	</profile>
 </publish_profiles>
