@@ -7,7 +7,7 @@ div#container
 }
 body
 {
-   background-color: #FFFFFF;
+   background-color: #00BFFF;
    color: #000000;
    font-family: Arial;
    font-weight: normal;
@@ -16,22 +16,14 @@ body
    margin: 0;
    text-align: center;
 }
-#wb_Text1 
+#wb_Image1
 {
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text1 div
-{
-   text-align: left;
+   vertical-align: top;
 }
 #Image1
 {
    border: 0px solid #000000;
+   border-radius: 0px;
    padding: 0;
    margin: 0;
    left: 0;
@@ -39,9 +31,14 @@ body
    width: 100%;
    height: 100%;
 }
+#wb_Image2
+{
+   vertical-align: top;
+}
 #Image2
 {
    border: 0px solid #000000;
+   border-radius: 0px;
    padding: 0;
    margin: 0;
    left: 0;
@@ -54,6 +51,7 @@ body
    background-color: transparent;
    background-image: none;
    border: 0px solid #000000;
+   border-radius: 0px;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -67,6 +65,7 @@ body
    background-color: transparent;
    background-image: none;
    border: 0px solid #000000;
+   border-radius: 0px;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -80,6 +79,7 @@ body
    background-color: transparent;
    background-image: none;
    border: 0px solid #000000;
+   border-radius: 0px;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -88,9 +88,14 @@ body
 {
    text-align: left;
 }
+#wb_Image3
+{
+   vertical-align: top;
+}
 #Image3
 {
    border: 0px solid #000000;
+   border-radius: 0px;
    padding: 0;
    margin: 0;
    left: 0;
@@ -102,21 +107,28 @@ body
 {
    background-color: transparent;
    background-image: none;
-   color :#0000CD;
+   color: #0000CD;
    font-family: Arial;
    font-weight: normal;
+   font-style: normal;
    font-size: 16px;
    margin: 0;
+   text-align: center;
 }
 #wb_TextMenu1 span
 {
    margin: 0 4px 0 0px;
+}
+#wb_TextMenu1 a
+{
+   color: inherit;
 }
 #wb_Text5 
 {
    background-color: transparent;
    background-image: none;
    border: 0px solid #000000;
+   border-radius: 0px;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -135,7 +147,7 @@ body
 {
    height: 30px;
    float: left;
-   margin: 0 8px 0 0;
+   margin: 0 1px 0 0;
 }
 #NavigationBar1 ul.navbar li a
 {
@@ -159,10 +171,11 @@ body
 #NavigationBar1_item0 { width: 116px; }
 #NavigationBar1_item1 { width: 91px; }
 #NavigationBar1_item2 { width: 105px; }
-#NavigationBar1_item3 { width: 187px; }
-#NavigationBar1_item4 { width: 75px; }
-#NavigationBar1_item5 { width: 81px; }
-#NavigationBar1_item6 { width: 67px; }
+#NavigationBar1_item3 { width: 82px; }
+#NavigationBar1_item4 { width: 132px; }
+#NavigationBar1_item5 { width: 75px; }
+#NavigationBar1_item6 { width: 81px; }
+#NavigationBar1_item7 { width: 67px; }
 #NavigationBar1 a .hover
 {
    visibility: hidden;
@@ -174,4 +187,366 @@ body
 #NavigationBar1 a:hover span
 {
    visibility: hidden;
+}
+#NavigationBar1 .item-name
+{
+   display: none !important;
+}
+#wb_Heading1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#Heading1
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 43px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Image1
+{
+   position: absolute;
+   left: 95px;
+   top: 95px;
+   width: 135px;
+   height: 135px;
+   z-index: 0;
+}
+#wb_Text4
+{
+   position: absolute;
+   left: 95px;
+   top: 869px;
+   width: 459px;
+   height: 342px;
+   z-index: 4;
+}
+#wb_Image2
+{
+   position: absolute;
+   left: 99px;
+   top: 259px;
+   width: 797px;
+   height: 374px;
+   z-index: 1;
+}
+#NavigationBar1
+{
+   position: absolute;
+   left: 126px;
+   top: 32px;
+   width: 757px;
+   height: 30px;
+   z-index: 8;
+}
+#wb_Text5
+{
+   position: absolute;
+   left: 95px;
+   top: 1211px;
+   width: 441px;
+   height: 324px;
+   z-index: 7;
+}
+#wb_Image3
+{
+   position: absolute;
+   left: 500px;
+   top: 920px;
+   width: 396px;
+   height: 227px;
+   z-index: 5;
+}
+#wb_TextMenu1
+{
+   position: absolute;
+   left: 616px;
+   top: 1392px;
+   width: 109px;
+   height: 18px;
+   z-index: 6;
+}
+#wb_Text2
+{
+   position: absolute;
+   left: 99px;
+   top: 658px;
+   width: 451px;
+   height: 198px;
+   z-index: 2;
+}
+#wb_Text3
+{
+   position: absolute;
+   left: 629px;
+   top: 686px;
+   width: 267px;
+   height: 18px;
+   z-index: 3;
+}
+#wb_Heading1
+{
+   position: absolute;
+   left: 298px;
+   top: 117px;
+   width: 444px;
+   height: 66px;
+   z-index: 9;
+}
+@media only screen and (min-width: 768px) and (max-width: 969px)
+{
+div#container
+{
+   width: 768px;
+}
+body
+{
+   background-color: #00BFFF;
+   background-image: none;
+}
+#wb_Image1
+{
+   left: 70px;
+   top: 70px;
+   width: 160px;
+   height: 160px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image2
+{
+   left: 99px;
+   top: 259px;
+   width: 797px;
+   height: 374px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text2
+{
+   left: 99px;
+   top: 658px;
+   width: 451px;
+   height: 198px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text3
+{
+   left: 629px;
+   top: 686px;
+   width: 267px;
+   height: 18px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text3
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text4
+{
+   left: 95px;
+   top: 869px;
+   width: 459px;
+   height: 342px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text4
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image3
+{
+   left: 500px;
+   top: 920px;
+   width: 396px;
+   height: 227px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_TextMenu1
+{
+   left: 616px;
+   top: 1392px;
+   width: 109px;
+   height: 18px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   text-align: center;
+}
+#wb_TextMenu1 span
+{
+   margin: 0 4px 0 0px;
+}
+#wb_Text5
+{
+   left: 95px;
+   top: 1211px;
+   width: 441px;
+   height: 324px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text5
+{
+   margin: 0;
+   padding: 0;
+}
+#NavigationBar1
+{
+   left: 126px;
+   top: 32px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+}
+@media only screen and (max-width: 767px)
+{
+div#container
+{
+   width: 320px;
+}
+body
+{
+   background-color: #00BFFF;
+   background-image: none;
+}
+#wb_Image1
+{
+   left: 70px;
+   top: 70px;
+   width: 160px;
+   height: 160px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image2
+{
+   left: 99px;
+   top: 259px;
+   width: 797px;
+   height: 374px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text2
+{
+   left: 99px;
+   top: 658px;
+   width: 451px;
+   height: 198px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text3
+{
+   left: 629px;
+   top: 686px;
+   width: 267px;
+   height: 18px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text3
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text4
+{
+   left: 95px;
+   top: 869px;
+   width: 459px;
+   height: 342px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text4
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image3
+{
+   left: 500px;
+   top: 920px;
+   width: 396px;
+   height: 227px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_TextMenu1
+{
+   left: 616px;
+   top: 1392px;
+   width: 109px;
+   height: 18px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   text-align: center;
+}
+#wb_TextMenu1 span
+{
+   margin: 0 4px 0 0px;
+}
+#wb_Text5
+{
+   left: 95px;
+   top: 1211px;
+   width: 441px;
+   height: 324px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text5
+{
+   margin: 0;
+   padding: 0;
+}
+#NavigationBar1
+{
+   left: 126px;
+   top: 32px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
 }

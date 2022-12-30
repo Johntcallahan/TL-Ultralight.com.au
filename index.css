@@ -7,33 +7,21 @@ div#container
 }
 body
 {
-   background-color: #FFFFFF;
+   background-color: #87CEFA;
    color: #000000;
    font-family: Arial;
    font-weight: normal;
-   font-size: 19px;
+   font-size: 16px;
    line-height: 1.1875;
    margin: 0;
    text-align: center;
-}
-#wb_Text1 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text1 div
-{
-   text-align: left;
 }
 #wb_Text7 
 {
    background-color: transparent;
    background-image: none;
    border: 0px solid #000000;
+   border-radius: 0px;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -42,32 +30,34 @@ body
 {
    text-align: left;
 }
-#wb_Text8 
+#wb_copyright 
 {
    background-color: transparent;
    background-image: none;
    border: 0px solid #000000;
+   border-radius: 0px;
    padding: 0;
    margin: 0;
    text-align: center;
 }
-#wb_Text8 div
+#wb_copyright div
 {
    text-align: center;
 }
-#wb_Carousel1
+#wb_carousell_4
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
 }
-#Carousel1 .frame
+#carousell_4 .frame
 {
    width: 794px;
    display: inline-block;
    float: left;
    height: 480px;
 }
-#wb_Carousel1 .pagination
+#wb_carousell_4 .pagination
 {
    bottom: 0;
    left: 0;
@@ -77,12 +67,23 @@ body
    width: 100%;
    z-index: 998;
 }
-#wb_Carousel1 .pagination img
+#wb_carousell_4 .pagination a
 {
-   border-style: none;
-   padding: 22px 22px 22px 22px;
+   display: inline-block;
+   margin: 22px 22px 22px 22px;
+   width: 11px;
+   height: 11px;
+   cursor: pointer;
+   text-indent: -999px;
+   border-radius: 50%;
+   background-color: #FFFFFF;
+   border: 1px solid #000000;
 }
-#Carousel1_back
+#wb_carousell_4 .pagination a.active
+{
+   background-color: #000000;
+}
+#carousell_4_back
 {
    position: absolute;
    left: 4px;
@@ -91,7 +92,7 @@ body
    height: 30px;
    z-index: 999;
 }
-#Carousel1_next
+#carousell_4_next
 {
    position: absolute;
    right: 8px;
@@ -100,17 +101,22 @@ body
    height: 30px;
    z-index: 999;
 }
-#Carousel1_back img, #Carousel1_next img
+#carousell_4_back img, #carousell_4_next img
 {
    border-width: 0;
 }
-#Carousel1_back a, #Carousel1_next a
+#carousell_4_back a, #carousell_4_next a
 {
    cursor: pointer;
 }
-#Image4
+#wb_Carosell_3
+{
+   vertical-align: top;
+}
+#Carosell_3
 {
    border: 0px solid #000000;
+   border-radius: 0px;
    padding: 0;
    margin: 0;
    left: 0;
@@ -118,9 +124,14 @@ body
    width: 100%;
    height: 100%;
 }
-#Image5
+#wb_Carosell
+{
+   vertical-align: top;
+}
+#Carosell
 {
    border: 0px solid #000000;
+   border-radius: 0px;
    padding: 0;
    margin: 0;
    left: 0;
@@ -128,29 +139,14 @@ body
    width: 100%;
    height: 100%;
 }
-#Image3
+#wb_Image1
 {
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#Image2
-{
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
+   vertical-align: top;
 }
 #Image1
 {
    border: 0px solid #000000;
+   border-radius: 0px;
    padding: 0;
    margin: 0;
    left: 0;
@@ -158,9 +154,42 @@ body
    width: 100%;
    height: 100%;
 }
-#Image6
+#wb_Carousell
+{
+   vertical-align: top;
+}
+#Carousell
+{
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_TL_logo
+{
+   vertical-align: top;
+}
+#TL_logo
 {
    border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Fbook
+{
+   vertical-align: top;
+}
+#Fbook
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
    padding: 0;
    margin: 0;
    left: 0;
@@ -178,7 +207,7 @@ body
 {
    height: 30px;
    float: left;
-   margin: 0 7px 0 0;
+   margin: 0 1px 0 0;
 }
 #NavigationBar1 ul.navbar li a
 {
@@ -199,13 +228,14 @@ body
    position: absolute;
    z-index: 2;
 }
-#NavigationBar1_item0 { width: 98px; }
-#NavigationBar1_item1 { width: 78px; }
-#NavigationBar1_item2 { width: 89px; }
-#NavigationBar1_item3 { width: 157px; }
-#NavigationBar1_item4 { width: 64px; }
-#NavigationBar1_item5 { width: 70px; }
-#NavigationBar1_item6 { width: 58px; }
+#NavigationBar1_item0 { width: 116px; }
+#NavigationBar1_item1 { width: 91px; }
+#NavigationBar1_item2 { width: 105px; }
+#NavigationBar1_item3 { width: 110px; }
+#NavigationBar1_item4 { width: 132px; }
+#NavigationBar1_item5 { width: 187px; }
+#NavigationBar1_item6 { width: 75px; }
+#NavigationBar1_item7 { width: 81px; }
 #NavigationBar1 a .hover
 {
    visibility: hidden;
@@ -217,4 +247,505 @@ body
 #NavigationBar1 a:hover span
 {
    visibility: hidden;
+}
+#NavigationBar1 .item-name
+{
+   display: none !important;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text3 div
+{
+   text-align: center;
+}
+#wb_Heading1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#Heading1
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 43px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Image2
+{
+   vertical-align: top;
+}
+#Image2
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Image1
+{
+   position: absolute;
+   left: 848px;
+   top: 40px;
+   width: 687px;
+   height: 400px;
+   z-index: 1;
+}
+#wb_Image2
+{
+   position: absolute;
+   left: 3230px;
+   top: 19px;
+   width: 683px;
+   height: 423px;
+   z-index: 4;
+}
+#wb_carousell_4
+{
+   position: absolute;
+   left: 106px;
+   top: 210px;
+   width: 794px;
+   height: 480px;
+   z-index: 7;
+   overflow: hidden;
+}
+#NavigationBar1
+{
+   position: absolute;
+   left: 66px;
+   top: 35px;
+   width: 905px;
+   height: 30px;
+   z-index: 10;
+}
+#wb_copyright
+{
+   position: absolute;
+   left: 345px;
+   top: 1101px;
+   width: 280px;
+   height: 15px;
+   text-align: center;
+   z-index: 6;
+}
+#wb_Text7
+{
+   position: absolute;
+   left: 80px;
+   top: 773px;
+   width: 890px;
+   height: 214px;
+   z-index: 5;
+}
+#wb_Carousell
+{
+   position: absolute;
+   left: 54px;
+   top: 40px;
+   width: 697px;
+   height: 400px;
+   z-index: 0;
+}
+#carousell_4
+{
+   position: absolute;
+}
+#wb_Text2
+{
+   position: absolute;
+   left: 345px;
+   top: 86px;
+   width: 108px;
+   height: 18px;
+   z-index: 11;
+}
+#wb_Text3
+{
+   position: absolute;
+   left: 113px;
+   top: 698px;
+   width: 745px;
+   height: 30px;
+   text-align: center;
+   z-index: 12;
+}
+#wb_TL_logo
+{
+   position: absolute;
+   left: 80px;
+   top: 94px;
+   width: 124px;
+   height: 124px;
+   z-index: 8;
+}
+#wb_Carosell_3
+{
+   position: absolute;
+   left: 1622px;
+   top: 30px;
+   width: 720px;
+   height: 410px;
+   z-index: 2;
+}
+#wb_Heading1
+{
+   position: absolute;
+   left: 240px;
+   top: 122px;
+   width: 636px;
+   height: 58px;
+   z-index: 13;
+}
+#wb_Carosell
+{
+   position: absolute;
+   left: 2428px;
+   top: 50px;
+   width: 703px;
+   height: 380px;
+   z-index: 3;
+}
+#wb_Fbook
+{
+   position: absolute;
+   left: 235px;
+   top: 1036px;
+   width: 132px;
+   height: 44px;
+   z-index: 9;
+}
+@media only screen and (max-width: 768px)
+{
+div#container
+{
+   width: 970px;
+}
+body
+{
+   background-color: #87CEFA;
+}
+#wb_Text7
+{
+   left: 80px;
+   top: 735px;
+   width: 890px;
+   height: 216px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text7
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_copyright
+{
+   left: 345px;
+   top: 1010px;
+   width: 280px;
+   height: 16px;
+   visibility: visible;
+   display: inline;
+}
+#wb_copyright
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_carousell_4
+{
+   left: 106px;
+   top: 210px;
+   width: 794px;
+   height: 480px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#carousell_4 .frame
+{
+   width: 794px;
+   height: 480px;
+}
+#carousell_4_back
+{
+   top: 46%;
+}
+#carousell_4_next
+{
+   top: 46%;
+}
+#wb_Carosell_3
+{
+   left: 1622px;
+   top: 30px;
+   width: 720px;
+   height: 410px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Carosell
+{
+   left: 2428px;
+   top: 50px;
+   width: 703px;
+   height: 380px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image1
+{
+   left: 848px;
+   top: 40px;
+   width: 687px;
+   height: 400px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Carousell
+{
+   left: 54px;
+   top: 40px;
+   width: 697px;
+   height: 400px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_TL_logo
+{
+   left: 80px;
+   top: 105px;
+   width: 135px;
+   height: 135px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Fbook
+{
+   left: 235px;
+   top: 966px;
+   width: 132px;
+   height: 44px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#NavigationBar1
+{
+   left: 118px;
+   top: 38px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#wb_Text2
+{
+   left: 345px;
+   top: 86px;
+   width: 108px;
+   height: 18px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text3
+{
+   left: 113px;
+   top: 698px;
+   width: 745px;
+   height: 30px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text3
+{
+   margin: 0;
+   padding: 0;
+}
+}
+@media only screen and (max-width: 320px)
+{
+div#container
+{
+   width: 320px;
+}
+body
+{
+   background-color: #87CEFA;
+   background-image: none;
+}
+#wb_Text7
+{
+   left: 80px;
+   top: 735px;
+   width: 890px;
+   height: 216px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text7
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_copyright
+{
+   left: 345px;
+   top: 1010px;
+   width: 280px;
+   height: 16px;
+   visibility: visible;
+   display: inline;
+}
+#wb_copyright
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_carousell_4
+{
+   left: 106px;
+   top: 210px;
+   width: 794px;
+   height: 480px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#carousell_4 .frame
+{
+   width: 794px;
+   height: 480px;
+}
+#carousell_4_back
+{
+   top: 46%;
+}
+#carousell_4_next
+{
+   top: 46%;
+}
+#wb_Carosell_3
+{
+   left: 1622px;
+   top: 30px;
+   width: 720px;
+   height: 410px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Carosell
+{
+   left: 2428px;
+   top: 50px;
+   width: 703px;
+   height: 380px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image1
+{
+   left: 848px;
+   top: 40px;
+   width: 687px;
+   height: 400px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Carousell
+{
+   left: 54px;
+   top: 40px;
+   width: 697px;
+   height: 400px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_TL_logo
+{
+   left: 80px;
+   top: 105px;
+   width: 135px;
+   height: 135px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Fbook
+{
+   left: 235px;
+   top: 966px;
+   width: 132px;
+   height: 44px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#NavigationBar1
+{
+   left: 118px;
+   top: 38px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
 }
